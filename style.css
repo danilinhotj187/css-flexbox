@@ -273,3 +273,27 @@ hr{
     padding: 16px;
     height: 500px;
 }
+
+.container-flexwrap-nowrap{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: nowrap;
+    /* indiferente */
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-flexwrap-wrap{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    /* indiferente */
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}

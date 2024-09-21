@@ -297,3 +297,15 @@ hr{
     padding: 16px;
     height: 500px;
 }
+
+.container-flexwrap-wrap-reverse{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap-reverse;
+    /* indiferente */
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
